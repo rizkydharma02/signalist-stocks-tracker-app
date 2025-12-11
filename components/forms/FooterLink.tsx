@@ -13,4 +13,5 @@ const FooterLink = ({ text, linkText, href }: FooterLinkProps) => {
     </div>
   );
 };
+
 export default FooterLink;

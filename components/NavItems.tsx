@@ -1,7 +1,7 @@
 'use client';
+import Link from 'next/link';
 
 import { NAV_ITEMS } from '@/lib/constants';
-import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import SearchCommand from '@/components/SearchCommand';
 
@@ -10,7 +10,6 @@ const NavItems = ({ initialStocks }: { initialStocks: StockWithWatchlistStatus[]
 
   const isActive = (path: string) => {
     if (path === '/') return pathname === '/';
-
     return pathname.startsWith(path);
   };
 
@@ -35,4 +34,5 @@ const NavItems = ({ initialStocks }: { initialStocks: StockWithWatchlistStatus[]
     </ul>
   );
 };
+
 export default NavItems;
