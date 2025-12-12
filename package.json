@@ -7,7 +7,9 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "test:db": "node scripts/test-db.mjs"
+    "test:db": "node scripts/test-connection.mjs",
+    "test:dns": "node scripts/test-dns.mjs",
+    "test:hosts": "node scripts/test-actual-hosts.mjs"
   },
   "dependencies": {
     "@radix-ui/react-avatar": "^1.1.11",

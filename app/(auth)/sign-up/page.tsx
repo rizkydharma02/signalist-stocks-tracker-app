@@ -26,7 +26,7 @@ const SignUp = () => {
       fullName: '',
       email: '',
       password: '',
-      country: 'GB',
+      country: '',
       investmentGoals: 'Growth',
       riskTolerance: 'Medium',
       preferredIndustry: 'Technology',
