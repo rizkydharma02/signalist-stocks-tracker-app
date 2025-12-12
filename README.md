@@ -91,11 +91,3 @@ AI-powered modern stock market app built with Next.js, Shadcn, Better Auth, and 
 👉 **Analytics & Insights**: Gain insights into user behavior, stock trends, and engagement metrics, enabling smarter business and trading decisions.
 
 And many more, including code architecture and reusability.
-
-## <a name="more">🚀 More</a>
-
-**Explore more projects by Blu Bostock**
-
-Interested in seeing more of my work?
-I’m passionate about building scalable, data-driven systems — from internal tools and automation platforms to AI-powered applications.
-Check out my other projects to see how I combine computer science, economics, and design thinking to create real-world impact.
