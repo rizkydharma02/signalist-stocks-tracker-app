@@ -4,7 +4,7 @@ import net from 'net';
 
 const resolve4 = promisify(dns.resolve4);
 
-// Hostnames yang sebenarnya dari SRV records
+// Hostnames srv record
 const actualHosts = ['ac-fukrroq-shard-00-00.z0nou9i.mongodb.net', 'ac-fukrroq-shard-00-01.z0nou9i.mongodb.net', 'ac-fukrroq-shard-00-02.z0nou9i.mongodb.net'];
 
 console.log('🔍 Testing Actual MongoDB Shard Hosts\n');

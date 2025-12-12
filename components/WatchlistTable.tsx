@@ -2,7 +2,6 @@
 
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from '@/components/ui/table';
 import { WATCHLIST_TABLE_HEADER } from '@/lib/constants';
-import { Button } from './ui/button';
 import { useRouter } from 'next/navigation';
 import { cn, getChangeColorClass } from '@/lib/utils';
 import WatchlistButton from './WatchlistButton';

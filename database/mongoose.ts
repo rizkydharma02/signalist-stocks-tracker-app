@@ -29,7 +29,7 @@ export const connectToDatabase = async () => {
       bufferCommands: false,
       maxPoolSize: 10,
       minPoolSize: 2,
-      serverSelectionTimeoutMS: 30000, // 30 detik untuk DNS yang lambat
+      serverSelectionTimeoutMS: 30000, // delay 30 seconds
       socketTimeoutMS: 45000,
       connectTimeoutMS: 30000,
       // MongoDB driver options
@@ -38,7 +38,7 @@ export const connectToDatabase = async () => {
       // DNS dan TLS options
       tls: true,
       tlsAllowInvalidCertificates: false,
-      // Tambahan untuk MongoDB Atlas
+      // role options
       authSource: 'admin',
     };
 

@@ -5,7 +5,6 @@ import SearchCommand from '@/components/SearchCommand';
 import { getWatchlistWithData } from '@/lib/actions/watchlist.actions';
 import { WatchlistTable } from '@/components/WatchlistTable';
 import NewsStock from '@/components/NewsStock';
-import { Button } from '@/components/ui/button';
 
 const Watchlist = async () => {
   const watchlist = await getWatchlistWithData();

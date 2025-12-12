@@ -32,7 +32,7 @@ export const getAuth = async () => {
 
     return authInstance;
   } catch (error) {
-    console.error('❌ Better Auth initialization error:', error);
+    console.error('Better Auth initialization error:', error);
     throw error;
   }
 };

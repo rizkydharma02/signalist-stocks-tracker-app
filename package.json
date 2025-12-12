@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "test:db": "node scripts/test-connection.mjs",
+    "generate:db": "node scripts/generate-db.mjs",
+    "test:connection": "node scripts/test-connection.mjs",
     "test:dns": "node scripts/test-dns.mjs",
     "test:hosts": "node scripts/test-actual-hosts.mjs"
   },
